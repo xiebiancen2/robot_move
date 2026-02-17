@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rover2d"
+version = "0.1.0"
+description = "Command line rover simulation on a 2D plane."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "robot_move maintainers" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+rover2d = "rover2d.cli:main"
